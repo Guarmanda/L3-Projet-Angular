@@ -1,0 +1,14 @@
+.first {
+	background-image: url('/assets/img/logoSpotify.jpg');
+    background-size: cover;
+}
+
+.second {
+	background-color: rgb(33,36,42);
+    background-size: cover;
+}
+
+.third {
+	background-image: url('/assets/img/IMDB.png');
+    background-size: cover;
+}

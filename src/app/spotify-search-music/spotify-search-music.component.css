@@ -1,0 +1,23 @@
+.bouton_ajouter_musique{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(74,77,89,1) 100%, rgba(0,212,255,1) 100%);
+  margin: 0;
+  margin-bottom: 20px;
+  width: 95%;
+  line-height: 19px;
+  font-size: 14px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  display:none;
+  text-align: center;
+  margin-left: 2.5%;
+}
+
+.vertical_scrollable {
+          height: 350px;
+          overflow-y: scroll;
+}
+
+.backg_spotify {
+	background-image: url('/assets/img/spotify.jpg');
+}

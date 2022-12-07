@@ -1,0 +1,55 @@
+header {
+	position: relative;
+	width: 100%;
+	color: black;
+	background: rgba(28, 36, 65, 0.93);
+	background: url('/assets/img/party_bg.jpg');
+	background-size: cover;
+}
+
+header .table {
+	display: table;
+	height: 100%;
+}
+
+header .container {
+	height: 100%;
+}
+
+header .header-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: black;
+}
+
+header .typed {
+	display: inline-block;
+	margin: 0;
+}
+
+.header-text{
+    color: black;
+}
+
+#animTextId{
+    color:black;
+}
+
+
+#animTextId:after {
+    content:"avec qui tu veux";
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% { content:"à un"; }
+    10% { content:"à deux"; }
+    20% { content:"à trois"; }
+    30% { content:"à quarte"; }
+    40% { content:"à cinq"; }
+    50% { content: "avec ton père"; }
+    60% { content: "avec ta mère"; }
+    70% { content: "avec les couz' "; }
+    80% { content: "avec qui tu veux"; }
+}

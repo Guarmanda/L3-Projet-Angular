@@ -1,0 +1,124 @@
+/* Pricing */
+
+.owl-pricing img {
+	width: 100%;
+}
+
+.owl-pricing,
+.pricings {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.pricing {
+	position: relative;
+	width: 100%;
+}
+
+.pricings .pricing .box-main,
+.pricings .pricing .box-second {
+	position: relative;
+	left: 25%;
+	display: inline-block;
+	width: 50%;
+	height: 300px;
+	padding: 50px 40px;
+	background: #bbb;
+	-webkit-transition: -webkit-transform 0.3s, background-image 0.3s, opacity 0.3s;
+	transition: transform 0.3s, background-image 0.3s, opacity 0.3s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.pricings .pricing .box-main {
+	z-index: 10;
+	padding-top: 40px;
+}
+
+.pricings .pricing .box-main:not(.active) {
+	cursor: pointer;
+}
+
+.pricings .pricing .box-main .info-icon {
+	font-size: 14px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	pointer-events: none;
+	opacity: 0;
+	color: #fff;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.pricings .pricing .box-main:not(.active) .info-icon {
+	opacity: 1;
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.pricings .pricing .box-main:not(.active):hover {
+	background: #afafaf;
+}
+
+.pricings .pricing .box-main.active {
+	background: #00a8ff;
+	-webkit-transform: translateX(-99%);
+	-ms-transform: translateX(-99%);
+	transform: translateX(-99%);
+}
+
+.pricings .pricing .box-second {
+	position: absolute;
+	top: 0;
+	right: 0% !important;
+	left: auto;
+	opacity: 0;
+	background: #afafaf;
+}
+
+.pricings .pricing .box-second.active {
+	opacity: 1;
+	background: #00a8ff;
+}
+
+.pricings .pricing.active .box-main,
+.pricings .pricing .box-second {
+	background: #00a8ff;
+}
+
+.pricings .pricing .box-main a.btn {
+	margin-top: 50px;
+}
+
+.owl-twitter i.icon {
+	font-size: 36px;
+	margin-bottom: 60px;
+	color: white;
+}
+
+#res_box{
+    background-color: transparent;
+    width: 40%;
+    height: 400px;
+	display: inline-block;
+	overflow-y: auto;
+}
+
+.filmBox{
+	background: transparent;
+	width: 45%;
+	height: 70%;
+	margin: 10px;
+	display: none;
+	position:relative;
+}
+
+.filmName{
+	background-color: #474747;
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: 0%;
+	color:white;
+}
